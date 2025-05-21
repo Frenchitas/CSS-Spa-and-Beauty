@@ -1,0 +1,21 @@
+@use '../abstracts/abstracts' as *;
+
+html * {
+    font-family: $primary-font;
+    font-size: 14px;
+
+}
+ 
+body {
+    overflow-x: hidden;
+    height: 100%;
+    .wrapper {
+       background: linear-gradient(
+        to bottom,
+        $white 0%,
+        $white 90%,
+        #ffffff 90%,
+        #ffffff 100%
+        ); 
+    }  
+} 

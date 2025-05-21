@@ -1,0 +1,42 @@
+@use '../abstracts/abstracts' as *;
+@use "sass:color";
+
+header.site-header {
+  padding: 1rem 0;
+  background-color: $white;
+  padding-bottom: 40px;
+
+  .right-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 66px;
+    z-index: 1;
+  }
+
+  .icons {
+    display: flex;
+    gap: 32px;
+    img {
+      width: 25px;
+      &:last-child {
+        width: 19px;
+      }
+    }
+  }
+
+  .auth-buttons {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+
+    a {
+      color: $dark-blue;
+      transition: color 0.3s ease;
+
+      &:hover {
+        color: color.scale($dark-blue, $lightness: 50%);
+      }
+    }
+  }
+}
