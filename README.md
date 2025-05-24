@@ -5,7 +5,7 @@ It features a **header** and **hero section** for a Spa & Beauty website.
 
 ## 🖥 Preview
 
-![Image](src/images/Spa-and-beauty-preview.png)
+![Image](src/images/CSS-Spa-and-Beauty-Preview.png)
 
 ## 🚀 Technologies Used
 
